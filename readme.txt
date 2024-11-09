@@ -1,3 +1,24 @@
+# Adapting this for the Maidesite Pro 1 desk - NOTE: NOT TESTED YET OR WORKING YET.
+
+#WARNING - the RJ12 pinout on the Pro 1 desk would appear to be differnt from the Pro2 - make sure you are comfortable with which wires to use.
+
+For me, holding your RJ12 upside down from left to right (wire colours on my cable):
+1 (blue)  - GND
+2 (gold)  - +5v
+3 (green) - n/a
+4 (red)   - SWD
+5 (black) - TX
+6 (white) - RX
+
+I have measured voltage on the +5V and it's a consistent +4.9 - will be taking power from USB.
+
+Wired as described below for the Pro 2, but changing colours as required.
+
+More to come as I experiment with this.
+
+#=======================================================================
+Original PRO2 details below
+#=======================================================================
 # Maidesite-standing-desk
 My experimentations with connecting a Maidesite PRO 2 standing desk controller to HomeAssist
 
