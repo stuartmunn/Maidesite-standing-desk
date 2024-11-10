@@ -2,7 +2,7 @@
 
 #WARNING - the RJ12 pinout on the Pro 1 desk would appear to be differnt from the Pro2 - make sure you are comfortable with which wires to use.
 
-For me, holding your RJ12 upside down from left to right (wire colours on my cable):
+For me, holding your RJ12 upside down (tab at bottom) from left to right (wire colours on my cable):
 1 (blue)  - GND
 2 (gold)  - +5v
 3 (green) - n/a
@@ -12,7 +12,13 @@ For me, holding your RJ12 upside down from left to right (wire colours on my cab
 
 I have measured voltage on the +5V and it's a consistent +4.9 - will be taking power from USB.
 
-Wired as described below for the Pro 2, but changing colours as required.
+Some Pictures attached showing the controller and the PCB inside it.
+
+Wired as described below for the Pro 2, but changing to match the TX/RX ports.
+
+I'm using a Freenove ESP32 WROOM for this with a breakout board. Error appears on desk console, but no info returned and unable to set height from HA with current setup.
+
+Seems difference in wiring and probably serial communication between the Pro 1 and Pro 2 desks. :(
 
 More to come as I experiment with this.
 
